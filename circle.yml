@@ -18,7 +18,7 @@ dependencies:
     - sudo pip install setuptools
     - sudo pip install pyopenssl ndg-httpsclient pyasn1
     - sudo pip install ansible
-    - sudo apt-get install python3
+    - sudo apt-get install python2.6=2.6.9-2+trusty1
 
 test:
   pre:
