@@ -3,6 +3,8 @@ machine:
   ruby:
     version:
       2.1.2
+  python:
+    version: 2.6.0
   environment:
     AWS_AMI_ID: ami-4cfe2f2a
     AWS_INSTANCE_TYPE: t2.micro
@@ -18,7 +20,7 @@ dependencies:
     - sudo pip install setuptools
     - sudo pip install pyopenssl ndg-httpsclient pyasn1
     - sudo pip install ansible
-    - sudo apt-get install python2.6=2.6.9-2+trusty1
+
 
 test:
   pre:
