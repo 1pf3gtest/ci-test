@@ -18,7 +18,7 @@ dependencies:
     - sudo pip install setuptools
     - sudo pip install pyopenssl ndg-httpsclient pyasn1
     - sudo pip install ansible
-    - sudo yum -y install python
+    - sudo apt-get install python3
 
 test:
   pre:
