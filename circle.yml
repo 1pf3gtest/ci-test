@@ -33,6 +33,6 @@ test:
   override:
     - ansible-playbook -i ansible/hosts ansible/nginx.yml
     - bundle exec rake spec:testserver
-  post:
-    - aws cloudformation delete-stack --stack-name $AWS_CF_STACK_NAME
+#  post:
+#    - aws cloudformation delete-stack --stack-name $AWS_CF_STACK_NAME
     
