@@ -10,7 +10,13 @@ machine:
     SSH_USER: ec2-user
 
 dependencies:
-  pre:
+  pre: 
+    - sudo apt-get install software-properties-common python python-pip -y 
+    - sudo apt-get install sshpass -y
+    - sudo apt-get install apt-transport-https ca-certificates -y
+    - sudo apt-get install python-dev libffi-dev libssl-dev -y 
+    - sudo pip install setuptools
+    - sudo pip install pyopenssl ndg-httpsclient pyasn1
     - sudo pip install ansible
 
 test:
