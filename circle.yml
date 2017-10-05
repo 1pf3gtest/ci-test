@@ -35,4 +35,3 @@ test:
     - bundle exec rake spec:testserver
 #  post:
 #    - aws cloudformation delete-stack --stack-name $AWS_CF_STACK_NAME
-
