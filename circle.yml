@@ -4,7 +4,7 @@ machine:
     version:
       2.1.2
   python:
-    version: 2.6.0
+    version: 2.7.6
   environment:
     AWS_AMI_ID: ami-4cfe2f2a
     AWS_INSTANCE_TYPE: t2.micro
